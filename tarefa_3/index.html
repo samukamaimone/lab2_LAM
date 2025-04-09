@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Revisão de JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    button {
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: steelblue;
+      color: white;
+    }
+
+    button:hover {
+      background-color: darkblue;
+    }
+  </style>
+</head>
+<body>
+  <h1>Revisão de JavaScript</h1>
+  <p>Clique nos botões abaixo para ver diferentes interações:</p>
+  <button onclick="mostrarMensagem()">Mensagem Simples</button>
+  <button onclick="mostrarNome()">Mostrar Nome</button>
+  <button onclick="mostrarSoma()">Soma de Números</button>
+  <button onclick="verificarIdade()">Verificar Idade</button>
+  <button onclick="saudacaoHorario()">Saudação pelo Horário</button>
+</body>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
